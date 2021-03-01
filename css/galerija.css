@@ -15,9 +15,16 @@
 #fedras {
     color: white;
     padding: 20px;
-   
-    
 }
+#fedras > div {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pozoriste div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
  .wrap .col-4 {
     margin-top: 10px;
 }
@@ -62,9 +69,10 @@
     background-color: white;
     color: black;
 }
+
 .wrap-img img {
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 400px;
+    max-height: 230px;
     margin: 5px;
     
 }
@@ -90,4 +98,33 @@
     
 }
 
+/* @media only screen and (max-width: 1100px) {
+    .wrap-img {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+} */
+
+.gallery_container {
+    /* background-image: url(../img/footer1.jpg);
+    background-size: cover; */
+    width: 100%;
+    border: 0;
+   
+}
+
+.gal_img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: 5px;
+    padding: 5px;
+}
+/* .gallery_container > .col-4 {
+    margin: 10px;
+} */
+#body > div.gallery_container > div.row {
+    background-image: url(../img/footer1.jpg);
+    background-size: cover;
+}

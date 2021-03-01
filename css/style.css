@@ -85,7 +85,6 @@
  
 .red {
     height: 100vh;
-  
 }
 
 
@@ -140,7 +139,7 @@
       text-align: left;
       letter-spacing: 5px;
       position: relative;
-      left: 70px;
+      left: 90px;
       top: 40px;
       font-weight: bold;    
   }
@@ -150,7 +149,7 @@
       text-align: left;
       position: relative;
       top:40px;
-      left: 30px;
+      left: 50px;
       width: 20%;
   }
  
@@ -170,7 +169,7 @@
      
       text-align: center;
       position: relative;
-      top: 70px;  
+      top: 120px;  
      
     }
     #p1 h2 {
@@ -181,11 +180,11 @@
     #p1 p {
        
         animation: fadeIn2 5s ease;
-        
+        width: 50%;
         font-size: 30px;
-       width: 50%;
-       margin-left: 310px;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
    
   .nav{
@@ -312,9 +311,24 @@ body {
     padding: 30px;
     margin: 0;
 }
-
+.or1 {
+    background: url(../img/bioskop.jpg);
+    cursor: pointer;
+}
+.or2 {
+    background: url(../img/kanc.jpg);
+    cursor: pointer;
+}
+.or3 {
+    background: url(../img/nova_predstava.jpg);
+    cursor: pointer;
+}
+.or4 {
+    background: url(../img/faomc_nastavlja.jpg);
+    cursor: pointer;
+}
 .content1 {
-    background: url(../img/nvg.jpg);
+   
     background-size:cover;
     
     color: white;
@@ -323,7 +337,7 @@ body {
 
 }
 .content3 {
-    background: url(../img/verona.jpg);
+    
     background-size:cover;
     color: white;
     text-align: center;
@@ -359,9 +373,53 @@ body {
     padding: 10px;
 
 }
-.content1 h3 {
+.wrap2 {
+    background-color: #DF292D;
+    color: white;
+}
+
+    .wrap2 > .row > .col-4 {
+    text-align: center;
+    padding: 40px;
+   
+    
+}
+.wrap-img {
+    background-color: white;
+    color: black;
+}
+.wrap-img img {
+    max-width: 95%;
+    max-height: 95%;
+    margin: 5px;
+    
+}
+.jutjub {
+    background-color: white;
+    color: red;
+    padding: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 8px rgba(250, 250, 250, 0.904);
+
+}
+.jutjub h2 {
     margin-top: 50px;
     font-weight: bold;
+    letter-spacing: 2px;
+}
+.jutjub a {
+    color: red;
+    
+}
+.content1 h3 {
+   
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 20px;
 }
 .content2 h3 {
     margin-top: 50px;
@@ -370,13 +428,16 @@ body {
 .content1 p {
     text-align: center;
     position: relative;
-    top: 30px;
-    width: 80%;
+    background-position: cover;
+    width: inherit;
+    height: inherit;
+    top: 200px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .content2 p {
     text-align: center;
@@ -395,10 +456,64 @@ body {
     color: black;
     
 }
+@media only screen and (max-width: 400px) {
+    #body > header > div > div > div.nav-menu > div{
+        margin-right: 0;
+    }
+    #h1-1 {
+        left:50px !important;
+    }
+    #h1-2 {
+        left:25px !important;
+    }
+}
+@media only screen and (max-width: 1370px) {
+    #body > header > div > div > div.nav-menu > ul {
+        margin-right: 0px;
+        margin-left: 120px;
+        width: 90%;
+    }
+    .nav{
+        margin-left: 0px;
+    }
+    #body > header > div > div > div.nav-menu > ul > li:nth-child(1) > a {
+        padding-right:10px ;
+        padding-left: 10px;
+    }
+}
 
-@media (max-width:768px) {
-    
+.subscribeForm {
+     padding: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#subscribe {
+    height: 70vh;
+}
+#subscribe > form > input.form-control {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+#red1 > form > input[type=email] {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+
+@media only screen and (max-width: 1100px) {
+    #body > header > div > div > div.nav-menu.makeDarker > ul {
+        margin-left: 80px;
+    }
     .red {
         height: 250vh;
     }
@@ -414,16 +529,16 @@ body {
       }
   
     #h1-1 {
-        top: 20px;
+        top: 35px;
         font-size: 40px;
-        left: 50px;
+        left: 80px;
        
     }
     #h1-2 {
         margin-bottom: 50px;
-        top: 20px;
+        top: 35px;
         font-size: 20px;
-        left: 20px;
+        left: 40px;
         width: 200px;
     }
     .scrolled .nav-link {

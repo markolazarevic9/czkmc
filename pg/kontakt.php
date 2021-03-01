@@ -79,10 +79,10 @@ if(filter_has_var(INPUT_POST, 'submit')) {
         <div class="banner">
             <div class="overlay">
                 
-                <div id="social-links">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square"></i></a>
-                    <a href="#"><i class="fas fa-envelope-square"></i></a>
+            <div id="social-links">
+                    <a data-toggle="tooltip" title="Facebook profil" href="https://www.facebook.com/czk.mcrnice" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a data-toggle="tooltip" title="YouTube kanal" href="https://www.youtube.com/channel/UCzQZG1SYE4J9oVOnQPk-Eog" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                    <a data-toggle="tooltip" title="Email" href="mailto:czk@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
                 </div>
                
                 <div class="nav-menu">
@@ -98,30 +98,33 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                             <a class="nav-link" data-nav-section="pocetna" aria-current="page" href="../index.html">Početna</a>
                           </li>
                         <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="#">Vesti</a>
+                          <a class="nav-link" aria-current="page" href="vesti.html">Vesti</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Pozorište</a>
+                          <a class="nav-link" data-nav-section="pocetna" aria-current="page" href="dokumenta.html">Dokumenta</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="pozoriste.html">Pozorište</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Časopis Stig</a>
+                            <a class="nav-link" aria-current="page" href="casopisstig.html">Časopis Stig</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Folklorni ansambl</a>
+                            <a class="nav-link" aria-current="page" href="faomc.html">Folklorni ansambl</a>
                         </li>
                     </li>
                     
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Manifestacije</a>
                           <ul class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Fedras</a></li>
-                            <li><a class="dropdown-item" href="#">Stig fest</a></li>
-                            <li><a class="dropdown-item" href="#">Kreni kolo</a></li>
+                            <li><a class="dropdown-item" href="fedras.html">Fedras</a></li>
+                            <li><a class="dropdown-item" href="stigfest.html">Stig fest</a></li>
+                            <li><a class="dropdown-item" href="krenikolo.html">Kreni kolo</a></li>
                             
                           </ul>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Galerija</a>
+                          <a class="nav-link" href="galerija.html">Galerija</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Kontakt</a>
@@ -132,9 +135,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                 </div>
                
               <section id="p1" >
-                    <h2>Konktakt <br>strana</h2> <br>
-                   
-                   
+                    <h2>Kontakt <br>strana</h2> <br>
               </section>
              </div>
              
@@ -153,7 +154,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
            <section id="info">
                 <h4><strong>Centar za kulturu Malo Crnice </strong></h4> <hr>
                 <h5><i class="fas fa-phone-square-alt"></i> Telefon: <br> <br> <strong>012-254-345</strong></h5> <br>
-                <h5><i class="fas fa-map-marked-alt"></i> Adresa: <br> <br> <strong>Bajlonijeva Malo Crnice, 12311, Srbija </strong></h5> <br>
+                <h5><i class="fas fa-map-marked-alt"></i> Adresa: <br> <br> <strong>Bajlonijeva 119 Malo Crniće, 12311, Srbija </strong></h5> <br>
                 <h5><i class="fas fa-envelope-square"></i> E-mail: <br> <br> <strong> czk@gmail.com</strong></h5> <br>
                 <h5><i class="fas fa-briefcase"></i> Radno vreme: <br> <br> <strong> Ponedeljak - Petak <br> 08:00 - 15:00 </strong></h5> <br>
                 
@@ -204,58 +205,55 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                         <a class="nav-link" data-nav-section="pocetna" aria-current="page" href="index.html">Početna</a>
                       </li>
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Vesti</a>
+                      <a class="nav-link" aria-current="page" href="vesti.html">Vesti</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Pozorište</a>
+                      <a class="nav-link" aria-current="page" href="dokumenta.html">Dokumenta</a>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="pozoriste.html">Pozorište</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Časopis Stig</a>
+                        <a class="nav-link" aria-current="page" href="casopisstig.html">Časopis Stig</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Folklorni ansambl</a>
+                        <a class="nav-link" aria-current="page" href="faomc.html">Folklorni ansambl</a>
                     </li>
                 </li>
-                
                     <li class="nav-item">Manifestacije
                         <ul class="manLinks">
-                            <li><a class="nav-link" href="#">Fedras</a></li>
-                            <li><a class="nav-link" href="#">Stig fest</a></li>
-                            <li><a class="nav-link" href="#">Kreni kolo</a></li> 
+                            <li><a class="nav-link" href="fedras.html">Fedras</a></li>
+                            <li><a class="nav-link" href="stigfest.html">Stig fest</a></li>
+                            <li><a class="nav-link" href="krenikolo.html">Kreni kolo</a></li> 
                         </ul>
-                    
-                        
-                      
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Galerija</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Kontakt</a>
-                      </li>
-                    
-                  </ul>  
-                
+                        <a class="nav-link active" href="kontakt.php">Kontakt</a>
+                      </li>         
+                  </ul>         
             </div>
             <div class="col-4">
                 <h2>Kontakt</h2> <hr>
                 
                 <h5><i class="fas fa-phone-square-alt"></i> Telefon:  <br> <strong>012-254-345</strong></h5> <br>
-                <h5><i class="fas fa-map-marked-alt"></i> Adresa:  <br> <strong>Bajlonijeva Malo Crnice, <br> 12311, Srbija </strong></h5> <br>
+                <h5><i class="fas fa-map-marked-alt"></i> Adresa:  <br> <strong>Bajlonijeva 119 Malo Crniće, <br> 12311, Srbija </strong></h5> <br>
                 <h5><i class="fas fa-envelope-square"></i> E-mail:  <br> <strong> czk@gmail.com</strong></h5> <br>
                 <h5><i class="fas fa-briefcase"></i> Radno vreme:  <br> <strong> Ponedeljak - Petak <br> 08:00 - 15:00 </strong></h5> <br>
             </div>
             <div class="col-4">
                 <h2>Linkovi</h2> <hr>
                 <div id="f">
-                    <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
-                    <a href="#"><i class="fas fa-envelope-square fa-2x"></i></a> <br> <br> <br>
+                    <a data-trigger="hover" data-toggle="tooltip" title="Facebook stranica" target="_blank" href="https://www.facebook.com/czk.mcrnice"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a  data-toggle="tooltip" title="YouTube kanal" target="_blank" href="https://www.youtube.com/channel/UCzQZG1SYE4J9oVOnQPk-Eog"><i class="fab fa-youtube-square fa-2x"></i></a>
+                    <a  data-toggle="tooltip" title="Pošaljite nam email" target="_blank" href="mailto:czkomc@yahoo.com"><i class="fas fa-envelope-square fa-2x"></i></a> <br> <br> <br>
 
-                    <a href="#"> <img src="../img/opstinamc.png" alt="" style="max-width: 150px; max-height: 150px;"></a> <br> <br><br><br>
-                    <a href="#"> <img src="../img/min.png" alt="" style="max-width: 250px; max-height: 250px;"></a>
+                    <a  data-toggle="tooltip" title="Opština Malo Crniće" target="_blank" href="https://opstinamalocrnice.rs/"> <img src="../img/opstinamc.png" alt="Grb opstine Malo Crnice" style="max-width: 150px; max-height: 150px;"></a> <br> <br><br><br>
+                    <a  data-toggle="tooltip" title="Ministarstvo kulture" target="_blank" href="https://www.kultura.gov.rs/"> <img src="../img/min.png" alt="Logo ministartsva kulture" style="max-width: 250px; max-height: 250px;"></a>
                 </div>
-            </div>
+            </div>    
         </div>
        
         <div class="row">
@@ -263,9 +261,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                 <br> <br>
                 <span> <i class="far fa-copyright"></i> <em>Copyright 2021 Centar za kulturu Malo Crniće </em></span> <br> 
                 <span> Design by <a id="me" href="https://www.linkedin.com/in/marko-lazarevic-dev/">Marko</a></span>
-                
             </div>
-           
         </div>
     </div>
     

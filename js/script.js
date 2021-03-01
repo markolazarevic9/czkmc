@@ -95,10 +95,11 @@ $('.menu-toggle').click(function() {
 
   $('.nav').addClass('nav-active');
 })
+
 $('.nav').style.animation  = `menuSlow 1.5s ease-in-out`;
 
 
-var rellax = new Rellax('.rellax');
+
 
 // ontainer.addEventListener('click', () => {
 //   menu.classList.toggle('nav-active');
@@ -112,7 +113,9 @@ var rellax = new Rellax('.rellax');
   
 // });
 
-
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+  });
 window.addEventListener('scroll', function() {
   let paralax = document.querySelector('.paralax');
   let scrollPosition = window.pageYOffset;
