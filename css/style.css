@@ -476,16 +476,28 @@ body {
    #body > header > div > div > div.nav-menu.makeDarker > ul {
        overflow-y: scroll;
    }
+   .nav-menu.scrolled > ul {
+        overflow-y: scroll;
+   }
    html {
-    overflow-x: hidden;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    
     }
     #p1 > p {
         width: 100% !important;
         margin-left: 0 !important;
     }
-    .makeDarker html {
-        overflow: hidden;
+   
+    #body > header > div > div > div.nav-menu.scrolled.makeDarker > ul {
+        height: 200vh !important;
     }
+    
+    
+    #body > header > div > div > div.nav-menu > ul {
+        margin-left: 0;
+    }
+    
 }
 @media only screen and (max-width: 1370px) {
     #body > header > div > div > div.nav-menu > ul {

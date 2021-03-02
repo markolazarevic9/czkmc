@@ -73,6 +73,8 @@ $('.menu-toggle').click(function() {
  
 
   if($('.nav').hasClass('responsive')) {
+    
+    $("html").css("overflow","auto");
     $('.gototop').fadeIn();
     $('.nav').removeClass('responsive');
     $("body").css("overflow", "auto");
@@ -82,6 +84,7 @@ $('.menu-toggle').click(function() {
   
   
   } else {
+    $("html").css("overflow","hidden");
     $('.nav').css('height','100vh');
     $('.nav-menu').addClass('makeDarker');
     $('.nav').addClass('responsive');
