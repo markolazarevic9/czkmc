@@ -63,9 +63,9 @@ $(window).resize(function () {
 
 let ulSoc = document.createElement('div');
 ulSoc.setAttribute('id','ulSoc');
-ulSoc.innerHTML += ` <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-<a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
-<a href="#"><i class="fas fa-envelope-square fa-2x"></i></a>`;
+ulSoc.innerHTML += ` <a target="_blank" href="https://www.facebook.com/czk.mcrnice"><i class="fab fa-facebook-square fa-2x"></i></a>
+<a target="_blanl" href="https://www.youtube.com/channel/UCzQZG1SYE4J9oVOnQPk-Eog"><i class="fab fa-youtube-square fa-2x"></i></a>
+<a target="_blank" href="mailto:czkomc@yahoo.com"><i class="fas fa-envelope-square fa-2x"></i></a>`;
 
 
 
@@ -73,7 +73,6 @@ $('.menu-toggle').click(function() {
  
 
   if($('.nav').hasClass('responsive')) {
-    
     $("html").css("overflow","auto");
     $('.gototop').fadeIn();
     $('.nav').removeClass('responsive');
