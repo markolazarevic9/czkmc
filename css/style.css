@@ -483,6 +483,9 @@ body {
         width: 100% !important;
         margin-left: 0 !important;
     }
+    .makeDarker html {
+        overflow: hidden;
+    }
 }
 @media only screen and (max-width: 1370px) {
     #body > header > div > div > div.nav-menu > ul {
