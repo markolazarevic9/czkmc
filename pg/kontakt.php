@@ -240,7 +240,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                 
                 <h5><i class="fas fa-phone-square-alt"></i> Telefon:  <br> <strong>012-254-345</strong></h5> <br>
                 <h5><i class="fas fa-map-marked-alt"></i> Adresa:  <br> <strong>Bajlonijeva 119 Malo Crniće, <br> 12311, Srbija </strong></h5> <br>
-                <h5><i class="fas fa-envelope-square"></i> E-mail:  <br> <strong> czk@gmail.com</strong></h5> <br>
+                <h5><i class="fas fa-envelope-square"></i> E-mail:  <br> <strong> czkomc@yahoo.com</strong></h5> <br>
                 <h5><i class="fas fa-briefcase"></i> Radno vreme:  <br> <strong> Ponedeljak - Petak <br> 08:00 - 15:00 </strong></h5> <br>
             </div>
             <div class="col-4">

@@ -74,7 +74,6 @@
     max-width: 400px;
     max-height: 230px;
     margin: 5px;
-    
 }
 .jutjub {
     background-color: white;
@@ -128,3 +127,22 @@
     background-image: url(../img/footer1.jpg);
     background-size: cover;
 }
+
+@media only screen and (max-width: 460px) {
+    .wrap-img img {
+        max-width: inherit;
+        max-height: 180px;
+        margin: 2px;
+    }
+    .wrap-img {
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .wrap-img img {
+        max-width: inherit;
+        max-height: 140px;
+        margin: 2px;
+    }
+}
+
