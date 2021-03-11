@@ -146,3 +146,7 @@
     }
 }
 
+#body > div.wrap2 > div:nth-child(1) > div > h2 {
+    font-weight: bold;
+   
+}
