@@ -127,7 +127,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                           <a class="nav-link" href="galerija.html">Galerija</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Kontakt</a>
+                            <a class="nav-link active" href="kontakt.php">Kontakt</a>
                           </li>
                         
                       </ul>  
@@ -202,7 +202,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                 <h2>Mapa sajta</h2> <hr>
                 <ul class="flex-column" style="text-align: center;">
                     <li class="nav-item">
-                        <a class="nav-link" data-nav-section="pocetna" aria-current="page" href="index.html">Početna</a>
+                        <a class="nav-link" data-nav-section="pocetna" aria-current="page" href="../index.html">Početna</a>
                       </li>
                     <li class="nav-item">
                       <a class="nav-link" aria-current="page" href="vesti.html">Vesti</a>
@@ -228,7 +228,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                         </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Galerija</a>
+                      <a class="nav-link" href="galerija.html">Galerija</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="kontakt.php">Kontakt</a>
