@@ -61,7 +61,8 @@ if(filter_has_var(INPUT_POST, 'submit')) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Centar za kulturu">
+    <meta name="description" content="Centar za kulturu opštine Malo Crniće - Kontakt strana">
+    <meta name="keywords" content="kontakt,malo crnice,czk,centar,kulturu">
     <title>Kontakt | Centar za kulturu opštine Malo Crniće</title>
 
     <script src="https://kit.fontawesome.com/486587c22a.js" crossorigin="anonymous"></script>
@@ -155,7 +156,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                 <h4><strong>Centar za kulturu Malo Crnice </strong></h4> <hr>
                 <h5><i class="fas fa-phone-square-alt"></i> Telefon: <br> <br> <strong>012-254-345</strong></h5> <br>
                 <h5><i class="fas fa-map-marked-alt"></i> Adresa: <br> <br> <strong>Bajlonijeva 119 Malo Crniće, 12311, Srbija </strong></h5> <br>
-                <h5><i class="fas fa-envelope-square"></i> E-mail: <br> <br> <strong> czk@gmail.com</strong></h5> <br>
+                <h5><i class="fas fa-envelope-square"></i> E-mail: <br> <br> <strong> czkomc@yahoo.com</strong></h5> <br>
                 <h5><i class="fas fa-briefcase"></i> Radno vreme: <br> <br> <strong> Ponedeljak - Petak <br> 08:00 - 15:00 </strong></h5> <br>
                 
            </section>
@@ -240,7 +241,7 @@ if(filter_has_var(INPUT_POST, 'submit')) {
                 
                 <h5><i class="fas fa-phone-square-alt"></i> Telefon:  <br> <strong>012-254-345</strong></h5> <br>
                 <h5><i class="fas fa-map-marked-alt"></i> Adresa:  <br> <strong>Bajlonijeva 119 Malo Crniće, <br> 12311, Srbija </strong></h5> <br>
-                <h5><i class="fas fa-envelope-square"></i> E-mail:  <br> <strong> czkomc@yahoo.com</strong></h5> <br>
+                <h5><i class="fas fa-envelope-square"></i> E-mail:  <br> <strong>czkomc@yahoo.com</strong></h5> <br>
                 <h5><i class="fas fa-briefcase"></i> Radno vreme:  <br> <strong> Ponedeljak - Petak <br> 08:00 - 15:00 </strong></h5> <br>
             </div>
             <div class="col-4">
