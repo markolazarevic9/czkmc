@@ -154,10 +154,10 @@ if(filter_has_var(INPUT_POST, 'submit')) {
         <div class="col-6 contact">
            <section id="info">
                 <h4><strong>Centar za kulturu Malo Crnice </strong></h4> <hr>
-                <h5><i class="fas fa-phone-square-alt"></i> Telefon: <br> <br> <strong>012-254-345</strong></h5> <br>
+                <h5><i class="fas fa-phone-square-alt"></i> Telefon: <br> <br> <strong>012-280-150</strong></h5> <br>
                 <h5><i class="fas fa-map-marked-alt"></i> Adresa: <br> <br> <strong>Bajlonijeva 119 Malo Crniće, 12311, Srbija </strong></h5> <br>
                 <h5><i class="fas fa-envelope-square"></i> E-mail: <br> <br> <strong> czkomc@yahoo.com</strong></h5> <br>
-                <h5><i class="fas fa-briefcase"></i> Radno vreme: <br> <br> <strong> Ponedeljak - Petak <br> 08:00 - 15:00 </strong></h5> <br>
+                <h5><i class="fas fa-briefcase"></i> Radno vreme: <br> <br> <strong> Ponedeljak - Petak <br> 07:00 - 15:00 </strong></h5> <br>
                 
            </section>
         </div>
@@ -239,10 +239,10 @@ if(filter_has_var(INPUT_POST, 'submit')) {
             <div class="col-4">
                 <h2>Kontakt</h2> <hr>
                 
-                <h5><i class="fas fa-phone-square-alt"></i> Telefon:  <br> <strong>012-254-345</strong></h5> <br>
+                <h5><i class="fas fa-phone-square-alt"></i> Telefon:  <br> <strong>012-280-150</strong></h5> <br>
                 <h5><i class="fas fa-map-marked-alt"></i> Adresa:  <br> <strong>Bajlonijeva 119 Malo Crniće, <br> 12311, Srbija </strong></h5> <br>
                 <h5><i class="fas fa-envelope-square"></i> E-mail:  <br> <strong>czkomc@yahoo.com</strong></h5> <br>
-                <h5><i class="fas fa-briefcase"></i> Radno vreme:  <br> <strong> Ponedeljak - Petak <br> 08:00 - 15:00 </strong></h5> <br>
+                <h5><i class="fas fa-briefcase"></i> Radno vreme:  <br> <strong> Ponedeljak - Petak <br> 07:00 - 15:00 </strong></h5> <br>
             </div>
             <div class="col-4">
                 <h2>Linkovi</h2> <hr>
